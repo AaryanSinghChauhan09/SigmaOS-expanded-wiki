@@ -3,12 +3,12 @@ name = "SigmaOS-expanded-wiki"
 tier = 2
 stability = "scaffold"
 language = "rust"
-description = "expanded-wiki component"
+description = "SigmaOS expanded documentation and wiki content"
 upstream = []
 
 [contract]
 provides = ["component"]
-depends_on = []
+depends_on = ["SigmaOS-system"]
 
 [maturity]
 status = "Scaffold"
